@@ -2,10 +2,10 @@
 This is mainly just a list of git commands for my own reference
 
 #### Key
-- <COMMIT_HASH> - the hash of a commit
-- <N> - a number
-- <REMOTE> - the name of a remote repository (most of the time the name is 'origin')
-- <BRANCH> - the name of a branch
+- ```<COMMIT_HASH>```: the hash of a commit
+- ```<N>```: a number
+- ```<REMOTE>```: the name of a remote repository (most of the time the name is 'origin')
+- ```<BRANCH>```: the name of a branch
 
 ---
 
