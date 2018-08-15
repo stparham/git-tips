@@ -35,10 +35,10 @@ Push the changes to the origin remote.
 ```git push origin master```
 
 ### To fetch a remote branch (while also creating a local branch that tracks it)
-```git checkout --track origin/daves_branch```
+```git checkout --track <REMOTE>/<BRANCH>```
 
 ### To delete a branch remotely
-```git push --delete <remote_name> <branch_name>```
+```git push --delete <REMOTE> <BRANCH>```
 
 ### To delete a branch locally
-```git branch -d <branch_name>```
+```git branch -d <BRANCH>```
