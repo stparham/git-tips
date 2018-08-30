@@ -16,7 +16,7 @@ This is mainly just a list of git commands for my own reference
 #### and keep the changes from that commit:
 ```git reset --soft HEAD^```
 
-### To undo the last <N> commits...
+### To undo the last N commits...
 #### and discard the changes from those commits:
 ```git reset --hard HEAD~<N>```
 
