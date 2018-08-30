@@ -9,10 +9,25 @@ This is mainly just a list of git commands for my own reference
 
 ---
 
-### To undo the last commit while keeping the changes from that commit:
+### To undo the last commit...
+#### and discard the changes from that commit:
+```git reset --hard HEAD^```
+
+#### and keep the changes from that commit:
 ```git reset --soft HEAD^```
 
-### To undo all commits made after the given commit while keeping the changes from those commits:
+### To undo the last <N> commits...
+#### and discard the changes from those commits:
+```git reset --hard HEAD~<N>```
+
+#### and keep the changes from those commits:
+```git reset --soft HEAD~<N>```
+
+### To undo all commits made after the given commit...
+#### and discard the changes from those commits:
+```git reset --hard <COMMIT_HASH>```
+
+#### and keep the changes from those commits:
 ```git reset --soft <COMMIT_HASH>```
 
 ### To squash the last N commits:
