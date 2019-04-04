@@ -9,6 +9,9 @@ This is mainly just a list of git commands for my own reference
 
 ---
 
+### To amend the author of the last commit...
+```git commit --amend --author="John Doe <john@doe.org>"```
+
 ### To undo the last commit...
 #### and discard the changes from that commit:
 ```git reset --hard HEAD^```
