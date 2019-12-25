@@ -6,6 +6,7 @@ This is mainly just a list of git commands for my own reference
 - ```<N>```: a number
 - ```<REMOTE>```: the name of a remote repository (most of the time the name is 'origin')
 - ```<BRANCH>```: the name of a branch
+- ```<PATH>```: the path to a file(s)
 
 ---
 
@@ -68,3 +69,8 @@ Push the changes to the origin remote.
 
 ### To delete a branch locally
 ```git branch -d <BRANCH>```
+
+### To untrack files that have already been committed (if you don't want to just straight up delete them)
+Add the files to your .gitignore.
+
+Run ```git rm --cached <PATH>```
